@@ -1,0 +1,62 @@
+svg {
+  background: lightblue;
+}
+
+#map-container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1200px;
+}
+
+#map-background {
+  fill: none;
+  pointer-events: all;
+}
+
+.district {
+  fill: rgb(180,180,180);
+  stroke: white;
+  stroke-width: 1px;
+}
+
+/* DISTRICT BASED RULES */
+
+.bayview.crime {
+  fill: brown;
+}
+
+.central.crime {
+  fill: pink;
+}
+
+.ingleside.crime {
+  fill: white;
+}
+
+.mission.crime{
+  fill: orange;
+}
+
+.northern.crime {
+  fill: green;
+}
+
+.park.crime {
+  fill: red;
+}
+
+.richmond.crime {
+  fill: yellow;
+}
+
+.southern.crime {
+  fill: purple;
+}
+
+.taraval.crime {
+  fill: blue;
+}
+
+.tenderloin.crime {
+  fill: black;
+}
